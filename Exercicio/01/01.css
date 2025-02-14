@@ -1,0 +1,43 @@
+:root{
+    --fonte: Arial, Helvetica, sans-serif;
+    --azul:#0091ff;
+    --azul_escuro: #00034e;
+}
+body{
+    background-color: antiquewhite;
+}
+h1#Principal{
+    text-align: center;
+}
+h2{
+    background-color: var(--azul_escuro);
+    color: white;
+    border-radius: 5px;
+}
+header{
+    background-image: linear-gradient(to top, var(--azul_escuro), var(--azul));
+    font-family: var(--fonte);
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+}
+main{
+    background-color: white;
+    margin:auto;
+    min-width: 300px;
+    max-width:1200px;
+    font-family: var(--fonte);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+nav > a{
+    background-color: var(--azul);
+    border-radius: 5px;
+    padding:5px;
+}
+nav>a:hover{
+    color: black;
+    text-decoration: underline;
+}
